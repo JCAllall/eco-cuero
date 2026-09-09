@@ -4,6 +4,8 @@ import Clientes from "@/components/Clientes";
 import Galeria from "@/components/Galeria";
 import EcoCuero from "@/components/EcoCuero";
 import Proceso from "@/components/Proceso";
+import Testimonios from "@/components/Testimonios";
+import Faq from "@/components/Faq";
 import Contacto from "@/components/Contacto";
 
 export default function Home() {
