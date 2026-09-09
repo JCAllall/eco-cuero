@@ -19,7 +19,8 @@ const ventajas = [
 
 export default function EcoCuero() {
   return (
-<section id="material" className="bg-moss text-cream py-20 md:py-28">      <div className="max-w-6xl mx-auto px-6">
+    <section id="material" className="bg-moss text-cream py-20 md:py-28">
+      <div className="max-w-6xl mx-auto px-6">
         <p className="font-body text-cream/50 text-xs tracking-[0.18em] uppercase mb-5">
           El material
         </p>
