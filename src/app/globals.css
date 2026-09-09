@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F5F1EA;
+  --color-ink: #1C1A17;
+  --color-clay: #8B5E3C;
+  --color-moss: #4A5D45;
+  --color-sand: #E0D8C9;
+
+  --font-display: var(--font-display), Georgia, serif;
+  --font-body: var(--font-body), system-ui, sans-serif;
+}
