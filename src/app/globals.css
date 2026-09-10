@@ -10,3 +10,6 @@
   --font-display: var(--font-display), Georgia, serif;
   --font-body: var(--font-body), system-ui, sans-serif;
 }
+section[id] {
+  scroll-margin-top: 4rem;
+}

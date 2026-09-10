@@ -11,18 +11,18 @@ export default function Hero() {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/40 to-ink/10" />
-
-      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 pb-20 md:pb-28">
+      
+      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 pt-24 pb-16 md:pb-28">
         <p className="font-body text-sand text-sm tracking-[0.2em] uppercase mb-5">
           Eco cuero · Fabricación propia · Rosario
         </p>
 
-        <h1 className="font-display text-cream text-4xl md:text-6xl lg:text-7xl leading-[1.05] max-w-3xl">
+        <h1 className="font-display text-cream text-3xl sm:text-4xl md:text-6xl lg:text-7xl leading-[1.05] max-w-3xl">
           Tu carta habla antes<br />que el primer plato.
         </h1>
 
         <p className="font-body text-cream/80 text-lg md:text-xl mt-6 max-w-xl leading-relaxed">
-          Cartas de menú en eco cuero, hechas a medida. Resisten la grasa, se limpian con un trapo y no se cuartean.
+                    Cartas de menú en eco cuero, hechas a medida. Resisten el uso diario.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 mt-10">
