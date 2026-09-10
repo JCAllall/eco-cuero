@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Clientes from "@/components/Clientes";
 import Galeria from "@/components/Galeria";
 import EcoCuero from "@/components/EcoCuero";
+import Personalizacion from "@/components/Personalizacion";
 import Proceso from "@/components/Proceso";
 import Testimonios from "@/components/Testimonios";
 import Faq from "@/components/Faq";
