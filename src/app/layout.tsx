@@ -14,9 +14,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cartas de menú en eco cuero | Rosario",
+  title: "Cartas de menú en eco cuero | CASSINA",
   description:
-    "Fabricamos cartas de menú y portacuentas en eco cuero para restaurantes. Personalizadas, resistentes a la grasa y sin origen animal.",
+    "Fabricamos cartas de menú, cartas de vino y portacuentas en eco cuero para restaurantes. Personalizadas, resistentes y con entrega en Rosario y todo el país.",
+  openGraph: {
+    title: "Cartas de menú en eco cuero",
+    description:
+      "Cartas personalizadas para restaurantes. Resisten el uso diario y se limpian con un trapo.",
+    url: "https://eco-cuero2026.vercel.app/",
+    siteName: "CASSINA",
+    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
+    locale: "es_AR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
