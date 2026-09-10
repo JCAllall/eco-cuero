@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Reveal from "@/components/Reveal";
 import Hero from "@/components/Hero";
 import Clientes from "@/components/Clientes";
 import Galeria from "@/components/Galeria";
@@ -16,10 +17,13 @@ export default function Home() {
       <main>
         <Hero />
         <Clientes />
-        <Galeria />
-        <EcoCuero />
-        <Proceso />
-        <Contacto />
+        <Reveal><Galeria /></Reveal>
+        <Reveal><EcoCuero /></Reveal>
+        <Reveal><Personalizacion /></Reveal>
+        <Reveal><Proceso /></Reveal>
+        <Reveal><Testimonios /></Reveal>
+        <Reveal><Faq /></Reveal>
+        <Reveal><Contacto /></Reveal>
       </main>
     </>
   );
