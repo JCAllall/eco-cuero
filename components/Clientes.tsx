@@ -1,6 +1,6 @@
 const clientes = [
   "Rock and Fellers",
-  "Cassina",
+  "BeatMemo",
   "Rizoma",
 ];
 
