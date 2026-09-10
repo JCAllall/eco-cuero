@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
 
         <p className="font-body text-cream/80 text-lg md:text-xl mt-6 max-w-xl leading-relaxed">
-                    Cartas de menú en eco cuero, hechas a medida. Resisten el uso diario.
+        Cartas de menú en eco cuero, hechas a medida. Resisten el uso diario.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 mt-10">
